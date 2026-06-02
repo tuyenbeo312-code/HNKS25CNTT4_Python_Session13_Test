@@ -41,6 +41,7 @@ while True:
             print("-"*42)
             for car in parking_lot :
                 print(f"{car['id']:<5} | {car['type']:<15} | {car['owner']}")
+            print("-"*42)
         case '3':
             search_id = int(input("Nhập id xe cần tìm kiếm: "))
             found = False 
